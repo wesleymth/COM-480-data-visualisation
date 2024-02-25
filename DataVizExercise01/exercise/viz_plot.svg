@@ -16,10 +16,10 @@ but you can use transform="scale(1, -1)" to invert that.
 	<style>
 		.axis {
 			stroke-width: 1;
-			stroke: rgb(200, 200, 200);
+			stroke: #d57624;
 		}
 		text {
-			fill: rgb(200, 200, 200);
+			fill: #d57624;
 			font-size: 8px;
 			text-anchor: middle;
 		}
@@ -69,4 +69,10 @@ but you can use transform="scale(1, -1)" to invert that.
 	<g transform="translate(-4, 50)">
 		<text transform="rotate(-90)">population</text>
 	</g>
+
+	<!-- Text label -->
+  	<text x="80" y="5" text-anchor="middle" style="font-size: 4px;">Important event</text>
+  
+  	<!-- Line pointing at the graph -->
+  	<line x1="50" y1="30" x2="80" y2="7" stroke="#e37413" stroke-width="0.5"/>
 </svg>
