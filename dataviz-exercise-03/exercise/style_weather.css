@@ -37,3 +37,11 @@
 
 /* add the cold and warm classes here */
 
+.warm {
+    background-color: rgb(255, 81, 0);
+}
+
+.cold {
+    background-color: rgb(11, 77, 164);
+}
+
